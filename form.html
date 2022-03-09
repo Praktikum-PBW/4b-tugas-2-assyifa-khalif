@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="formcss.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>Pendaftaran Mahasiswa Baru</h1>
+  </div>
+
+  <div class="main">
+
+    <form action="#">
+
+      <div class="baris">
+        <div class="judul">
+          <label for="npm">NPM (Nomor Pokok Mahasiswa)</label>
+        </div>
+        <div class="isi">
+          <input type="text" id="npm" placeholder="isi NPM anda Disini...">
+        </div>
+      </div>
+
+      <div class="baris">
+        <div class="judul">
+          <label for="nama">Nama Lengkap</label>
+        </div>
+        <div class="isi">
+          <input type="text" id="nama" placeholder="isi nama anda disini...">
+        </div>
+      </div>
+
+      <div class="baris">
+        <div class="judul">
+          <label for="alamat">Alamat</label>
+        </div>
+        <div class="isi">
+          <textarea id="alamat" placeholder="isi alamat anda disini..."></textarea>
+        </div>
+      </div>
+
+      <div class="baris">
+        <div class="judul">
+          <label>Jenis Kelamin</label>
+        </div>
+        <div class="isi">
+          <label class="container">Laki-Laki
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">Perempuan
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          </label>
+        </div>
+      </div>
+
+      <div class="baris">
+        <div class="judul">
+          <label for="prodi">Program Studi</label>
+        </div>
+        <div class="isi">
+          <select id="prodi">
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Sistem Informasi">Sistem Informasi</option>
+            <option value="Teknologi Informasi">Teknologi Informasi</option>
+            <option value="Teknik Komputer">Teknik Komputer</option>
+          </select>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="baris">
+        <button>tambah</button>
+      </div>
+
+    </form>
+
+  </div>
+</body>
+</html>
